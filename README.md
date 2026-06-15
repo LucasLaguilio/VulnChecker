@@ -6,9 +6,6 @@ O **VulnChecker** é um script simples desenvolvido em Python projetado para aut
 
 ---
 
-## ATENÇÃO! 
-# O script roda utilizando a interface en0, que pode ou não, ser sua interface de rede padrão, arrumarei isso no futuro também.
-
 ##  Como Funciona?
 
 1. **Coleta de IP e Varredura:** O script identifica o IP da sua interface de rede e roda o Nmap.
@@ -41,4 +38,4 @@ Para que o script cumpra seu papel de monitoramento contínuo, ele foi pensado p
 * [+] Fazer com que o script pegue o ultimo log salvo e compare com o atual, sem a necessidade de ficar rodando o script diariamente/com monitoramento continuo.
 * [+] Ajustar o script para poder aceitar inputs do usuario, para selecionar o tipo de scan e dar a escolha do usuario digitar qual alvo/ip ele quer escanear.
 * [+] Ajustar o script para cron jobs.
-* [+] Suporte a todos os sistemas operacionais.
+* [√] ~~Suporte a todos os sistemas operacionais.~~
