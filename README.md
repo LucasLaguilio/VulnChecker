@@ -32,3 +32,9 @@ Para que o script cumpra seu papel de monitoramento contínuo, ele foi pensado p
 * Python 3.X.X
 * Nmap 
 * Sistema operacional que tenha base em unix/unix-like (para comandos como awk,ipconfig e etc.)
+
+## Futuras mudanças
+
+* [+] Fazer com que o script pegue o ultimo log salvo e compare com o atual, sem a necessidade de ficar rodando o script diariamente/com monitoramento continuo.
+* [+] Ajustar o script para poder aceitar inputs do usuario, para selecionar o tipo de scan e dar a escolha do usuario digitar qual alvo/ip ele quer escanear.
+* [+] Ajustar o script para cron jobs.
